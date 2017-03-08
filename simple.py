@@ -1,7 +1,7 @@
 from util import content, isempty
 
 
-def conversion(book, sheetname):
+def convert(book, sheetname):
     sheet = book.sheet_by_name(sheetname)
 
     print "{|"

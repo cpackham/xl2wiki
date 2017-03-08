@@ -28,6 +28,6 @@ if __name__ == "__main__":
         sys.exit(1)
 
     if args.format == "title":
-        title.conversion(book, args.sheet)
+        title.convert(book, args.sheet)
     else:
-        simple.conversion(book, args.sheet)
+        simple.convert(book, args.sheet)

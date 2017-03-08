@@ -15,7 +15,7 @@ def __print_row(book, row, level):
         return level
 
 
-def conversion(book, sheetname):
+def convert(book, sheetname):
     sheet = book.sheet_by_name(sheetname)
     level = 0
 
