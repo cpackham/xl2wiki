@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 import argparse
 import locale
 import sys
@@ -8,7 +7,7 @@ import xlrd
 import simple
 import title
 
-if __name__ == "__main__":
+def main():
     locale.setlocale(locale.LC_ALL, '')
 
     parser = argparse.ArgumentParser(description=__doc__)
