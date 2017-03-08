@@ -19,7 +19,7 @@ def convert(book, sheetname):
     sheet = book.sheet_by_name(sheetname)
     level = 0
 
-    print "{|"
+    print "{| class=\"wikitable\""
     for row in sheet.get_rows():
         if isempty(row):
             continue

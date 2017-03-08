@@ -4,7 +4,7 @@ from util import content, isempty
 def convert(book, sheetname):
     sheet = book.sheet_by_name(sheetname)
 
-    print "{|"
+    print "{| class=\"wikitable\""
     for row in sheet.get_rows():
         if isempty(row):
             continue
